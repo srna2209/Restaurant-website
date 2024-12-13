@@ -1,0 +1,388 @@
+    #nav
+    {
+        position: fixed;
+        top:10px;
+        z-index: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transition: top 0.5s;
+    }
+    #nav a
+    {
+        text-decoration: none;
+        background-color: rgb(227, 227, 227);
+        color: rgb(114, 71, 43);
+        font-size: 17px;
+        padding: 10px 20px 10px 20px;          
+    }
+    #timings
+    {
+        background-image: url('Original Sin (2001).jpeg');
+        color: rgb(236, 236, 235);
+        height: 273px;
+        width: 100%;
+        background-size: cover;
+        border-bottom: 2px solid rgb(255, 255, 255);
+    }
+    .details
+    {
+        margin: auto;
+        margin-top: 11px;
+        width: 27%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 19px;
+        border-right: 1.5px solid whitesmoke;
+        border-left: 1.5px solid whitesmoke;
+        background-color: rgba(20, 19, 19, 0.616);
+    }
+    
+    #main
+    {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('food-2.jpeg');
+        background-size: cover;
+        width: 100%;
+        height: 590px;
+        border-top: 1px solid rgb(255, 255, 255);
+        text-align: center;
+        position: relative;
+    }
+    .sub-main
+    {
+        margin-top: 180px;
+    }
+    .p1
+    {
+        margin: 0px;
+        font-size: 70px;
+        color: whitesmoke;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .p2
+    {
+        margin: 0px;
+        font-size: 115px;
+        color: whitesmoke;
+        border-top: 2px solid whitesmoke;
+    }
+    .address
+    {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+        color: rgb(255, 255, 255);
+        font-size: 15px;  
+    }
+    #menu-side
+    {
+        height: 100%;
+        width: 0px;
+        position: fixed;
+        transition: 0.7s;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        overflow-x: hidden;
+        background-color:rgb(114, 71, 43) ;
+        padding-top: 70px;
+    }
+    ::-webkit-scrollbar
+    {
+        width: 3px;
+    }
+    ::-webkit-scrollbar-track
+    {
+        background:rgb(114, 71, 43);
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background-color: white;
+    }
+    #menu-side a
+    {
+        padding: 0px 10px 30px 30px;
+        display: block;
+        color:rgb(255, 255, 255);
+        transition: 0.5s;
+        text-decoration: none;
+        text-wrap: nowrap;
+    }
+    .closebtn
+    {
+        font-size: 40px;
+        position: absolute;
+        margin-left: 190px;
+        top: 5px;
+        right: 5px;
+    }
+    .main-2
+    {
+        background-image: url('Original Sin (2001).jpeg');
+        width: 100%;
+        height: 600px;
+        background-size: 100% 100%;
+    }
+    #menu
+    {
+        margin: 0px;
+        padding-top: 15px;
+        text-align: center;
+        background: rgba(179, 104, 54, 0.54);
+        color: rgb(236, 236, 235);
+        width: 100%;
+        height: 70px;
+        font-size: 40px;
+        border-bottom: 2px solid whitesmoke;
+        border-top: 2px solid whitesmoke;
+    }
+    .content
+    {
+        margin:0px;
+        padding: 0px;
+        height: 430px;
+        padding-top:130px;
+    }
+    .content table
+    {
+        margin:auto;
+        width: 57%;
+        height: 250px;
+        border-spacing: 29px;
+    }
+    .content a
+    {
+        display: block;
+        height: 70%;
+        width: 100%;
+        padding: 15px 3px 15px 3px;
+        color:rgb(255, 255, 255);
+        background-color: rgba(195, 102, 41, 0.758);
+        font-size: 17px; 
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .content a:hover
+    {
+        color: rgb(117, 64, 29); 
+        background-color: rgba(255, 255, 255, 0.58);
+    }
+    .main-3
+    {
+        margin: 0px;
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .body
+    {
+        width:100%;
+    }
+    .category
+    {
+        margin: 0px;
+        height:580px;
+        width: 100%;
+        background-size:cover;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 2px solid rgb(236, 236, 235);
+    }
+    .left-part
+    {
+        margin: 80px 40px;
+        width: 30%;
+        padding-left: 10px;
+        height: 420px;
+        text-align:left;
+        font-size: 60px;
+        color:rgb(255, 255, 255);
+        background-color: rgba(195, 102, 41, 0.758);
+        border-radius: 10px;
+    }
+    .right-part
+    {
+        margin: 40px 60px 40px 0px;
+        width:70%;
+        height: 460px;
+        padding: 35px 30px 15px 30px;
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        background-color: rgba(20, 19, 19, 0.616);
+        position: relative;
+        border-radius: 10px;
+    }
+    .right-part ul li
+    {
+        padding-bottom: 14px;
+    }
+    .right-part ul
+    {
+        list-style: square;
+    }
+    .right-part ul li span
+    {
+        float:right;
+    }
+    .right-part p
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    #back
+    {
+        height: 40px;
+        position: absolute;
+        bottom: 10px;
+        right: 30px;
+        left: 30px;
+    }
+    #back p
+    {
+        float: left;
+    }
+    #menu-back
+    {
+        width: 30%;
+        height: 47%;
+        text-align: center;
+        cursor: pointer;
+        background-color: rgba(195, 102, 41, 0.758);
+        color: rgb(236, 236, 235);
+        font-size: 18px;
+        border-radius: 5px;
+        
+    }
+    #menu-back:hover
+    {
+        background-color: rgba(255, 255, 255, 0.58);
+        color:rgb(117, 64, 29);
+    }
+    #contact
+    {
+        background-color: rgb(20, 19, 19);
+        border-bottom: 2px solid whitesmoke;
+
+    }
+    #contact-body
+    {
+        margin: auto;
+        padding: 0px;
+        width: 40%;
+        text-align: center; 
+        height: 550px;
+    }
+    #contact-body p
+    {
+        color: rgb(236, 236, 235);
+    }
+    #contact-body p input
+    {
+        width: 90%;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        background-color: rgba(255, 255, 255, 0.783) ;
+        border-style: none;
+        border-radius: 3px;
+        color: rgb(114, 71, 43);
+    }
+    #contact-body button
+    {
+        width: 25%;
+        padding: 10px;
+        background-color: rgba(195, 102, 41, 0.758);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+    }
+    #contact-body button:hover
+    {
+        background-color: rgba(255, 255, 255, 0.822);
+        color:rgb(117, 64, 29);
+    }
+    input::placeholder
+    {
+        color: rgb(114, 71, 43);
+    }
+    @media screen and (max-width: 770px)
+    {
+        #main
+        {
+            min-height: 100vh;
+        }
+        #menu-side
+        {
+            height: calc(100% - 60px);
+        }
+        ::webkit-scrollbar
+        {
+            width: 3px;
+        }
+        ::-webkit-scrollbar-track
+        {
+            background: rgb(114, 71, 43);
+        }
+        ::-webkit-scrollbar-thumb
+        {
+            background-color: white;
+        }
+        .content table
+        {
+            width: 90%;
+        }
+        .main-2
+        {
+            min-height: 75vh;
+        }
+        .details
+        {
+            width: 65%;
+        }
+        .category
+        {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .left-part
+        {
+            width: 40%;
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+        .right-part
+        {
+            font-size: 13px;
+            margin-top: 0px;
+            margin-left: 40px;
+            margin-bottom: 30px;
+        }
+        .price
+        {
+            height: 0;
+            width: 0;
+            overflow: hidden;
+        }
+        #back
+        {
+            height: 35px;
+            bottom: 5px;
+        }
+        #menu-back
+        {
+            height: 45%;
+            font-size: 13px;
+        }
+        #contact-body 
+        {
+            width: 70%;
+        }
+    }

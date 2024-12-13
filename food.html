@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KIKI's Food</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body
+        {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav" >
+        <a href="#main" style="border-bottom-left-radius: 3px; border-top-left-radius: 3px">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#timings" style="border-bottom-right-radius: 3px; border-top-right-radius: 3px;" >Timings</a>
+    </div>
+    <div id="main">
+        <div class="sub-main">
+            <p class="p1">Welcome to</p>
+            <p class="p2">KIKI's Food!</p>
+        </div>
+        <div class="address">10 Ziro lane | Yorkshire Dales</div>
+    </div>
+    <div id="menu-side">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#Sandwiches">Sandwiches</a>
+        <a href="#Chicken">Chicken Selection</a>
+        <a href="#Frizzy">Fizzy Mocktail Bar</a>
+        <a href="#Sunken">Sunken Desserts Bar</a>
+        <a href="#Fusion">Fusion Western Appetizers</a>
+        <a href="#Hand">Hand Tossed Pizza</a>
+        <a href="#Fries">The Fries Central Co.</a>
+        <a href="#Broiling">Boiling Broth</a>
+        <a href="#Beans">Beans N Cream</a>
+    </div>
+    
+    <div class="main-2">
+        <div id="menu">MENU</div>
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <a href="#Sandwiches">Sandwiches</a>
+                    </td>
+                    <td>
+                        <a href="#Chicken">Chicken Selection</a>
+                    </td>
+                    <td>
+                        <a href="#Frizzy">Fizzy Mocktail Bar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#Sunken">Sunken Desserts Bar</a>
+                    </td>
+                    <td>
+                        <a href="#Fusion">Fusion Western Appetizers</a>
+                    </td>
+                    <td>
+                        <a href="#Hand">Hand Tossed Pizza</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#Fries">The Fries Central Co</a>
+                    </td>
+                    <td>
+                        <a href="#Broiling">Boiling Broth</a>
+                    </td>
+                    <td>
+                        <a href="#Beans">Beans N Cream</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="timings">
+        <div id="menu">TIMINGS</div>
+        <div class="details">
+            <p>12:00 am - 9:00 pm</p>
+            <p>Thursday CLOSED</p>
+            <p>Sunday 12:00 am - 11:00 pm</p>
+        </div>
+    </div>
+    <div class="main-3">
+        <div class="body">
+            <div id="Sandwiches" class="category" style=" background-image: url('Mermaids (1990).jpeg');">
+                <div class="left-part">
+                    <p>Sandwiches</p>
+                </div>
+                <div class="right-part">
+                    <p style="color:rgb(13, 240, 55)">Veg</p>
+                    <ul>
+                        <li>Paneer Tikka Sandwich<span>245</span></li>
+                        <li>Only Cheese Grill Sandwich<span>245</span></li>
+                    </ul>
+                    <p style="color: rgb(245, 8, 8)">Chicken</p>
+                    <ul>
+                        <li>Chicken Tikka Sandwich<span>265</span></li>
+                        <li>Smokey BBQ Chicken Sandwich<span>265</span></li>
+                    </ul>
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;"onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Chicken" class="category" style=" background-image: url('Eat, Pray, Love (2016).jpeg');">
+                <div class="left-part">
+                    <p>Chicken<br>Selection</p>
+                </div>
+                <div class="right-part">
+                    <ul>
+                        <li>Peri-Peri Chicken Croquettes<span>205</span></li>
+                        <li>Smokey BBQ Chicken Wings<span>245</span></li>
+                        <li>Pulled Cheesy Chicken Loaded Nachos<span>245</span></li>
+                        <li>Creamy Tandoori Chicken Bruschetta<span>245</span></li>
+                        <li>Melting Cheesy Chicken Quesdilla<span>245</span></li>
+                    </ul>
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Frizzy" class="category" style=" background-image: url('ButCheerleader (1999).jpeg');">
+                <div class="left-part">
+                    <p>Fizzy<br>Mocktail<br>Bar</p>
+                </div>
+                <div class="right-part">
+                    <ul>
+                        <li>Virgin Mint Mojito<span>185</span></li>
+                        <li>Sparkling Blueberry Breeze<span>185</span></li>
+                    </ul>
+                    
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Sunken" class="category" style="background-image: url('Moonstruck (1987) (1).jpeg');">
+                <div class="left-part">
+                    <p>Sunken<br>Desserts</p>
+                </div>
+                <div class="right-part">
+                    <ul>
+                        <li>Scoop of Icecream<span>105</span></li>
+                        <li>Hot Brownie<span>185</span></li>
+                        <li>Sunken Belgium Nuttela Waffle<span>175</span></li>
+                    </ul>
+                    
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Fusion" class="category" style="background-image: url('download (2).jpeg');">
+                <div class="left-part">
+                    <p>Fusion<br>Western<br>Appetizers</p>
+                </div>
+                <div class="right-part">
+                    <p style="color:rgb(13, 240, 55)">Veg</p>
+                    <ul>
+                        <li>South West Jalepeno Cheesy Poppers<span>165</span></li>
+                        <li>Mexican Street Corn Bruschetta<span>185</span> </li>
+                        <li>Melting Cheesy Paneer Quesadilla<span>225</span> </li>
+
+                    </ul>
+                    <p style="color:rgb(245, 8, 8)">Chicken</p>
+                    <ul>
+                        <li>Smokey BBQ Chicken Wings<span>265</span></li>
+                        <li>Creamy Tandoori Chicken Bruschetta<span>265</span></li>
+                        <li>Melting Cheesy Chicken Quesadilla<span>265</span></li>
+                    </ul>
+                    
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Hand" class="category" style="background-image: url('download (3).jpeg');">
+                <div class="left-part">
+                    <p>Hand<br>Tossed<br>Pizza</p>
+                </div>
+                <div class="right-part">
+                    <p style="color:rgb(13, 240, 55)">Veg</p>
+                    <ul>
+                        <li>Rosa Spicy Veggies Mexican Fiesta<span>295</span></li>
+                        <li>Smokey BBQ Cottage Cheese Pizza<span>295</span></li>
+                    </ul>
+                    <p style="color: rgb(245, 8, 8)">Chicken</p>
+                    <ul>
+                        <li>Tandoori Chicken Tikka Treat <span>345</span></li>
+                        <li>Rosa Mexicana Chicken Fiesta<span>345</span></li>
+                    </ul>
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Fries" class="category" style="background-image: url('Moonstruck (1987) (2).jpeg');">
+                <div class="left-part">
+                    <p>The Fries<br>Central<br>Co.</p>
+                </div>
+                <div class="right-part">
+                    <p style="color: rgb(13, 240, 55)">Veg</p>
+                    <ul>
+                        <li>Classic Salted Fries<span>85</span></li>
+                        <li>BBQ Cheese Fries<span>145</span></li>
+                    </ul>
+                    <p style="color: rgb(245, 8, 8)">Chicken</p>
+                    <ul>
+                        <li>Loaded Peri-Peri Chicken Fries<span>185</span></li>
+                    </ul>
+                    
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Broiling" class="category" style="background-image: url('download (1).jpeg');">
+                <div class="left-part">
+                    <p>Boiling<br>Broth</p>
+                </div>
+                <div class="right-part">
+                    <p style="color: rgb(13, 240, 55)">Veg</p>
+                    <ul>
+                        <li>Parma Tomato Basil Soup<span>125</span></li>
+                        <li>Creamy Broccoli Almonfd Soup<span>135</span></li>
+                    </ul>
+                    <p style="color: rgb(245, 8, 8)">Chicken</p>
+                    <ul>
+                        <li>Zesty Chicken Tortilla Fusion Soup<span>165</span></li>
+                        <li>Creamy Chicken Broccoli Soup<span>155</span></li>
+                    </ul>
+
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px; ">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Beans" class="category" style="background-image: url('priscilla.jpeg');">
+                <div class="left-part">
+                    <p>Beans<br>N<br>Cream</p>
+                </div>
+                <div class="right-part">
+                    <ul>
+                        <li>Classic Cappucino<span>125</span></li>
+                        <li>Irish Mocha Latte<span>165</span></li>
+                        <li>Iced Hazelnut Latte Frappe<span>165</span></li>
+                    </ul>
+                    <div id="back">
+                        <p class="price" style="width: 70%; text-align: left; padding-top: 16px; font-size: 14px;">All prices are in rupees</p>
+                        <p id="menu-back" style="padding: 10px 0px 10px 0px;text-align: center;" onclick="openNav()">Others</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div id="contact">
+        <div id="menu" style="border-top:none;">CONTACT</div>
+        <div id="contact-body">
+            <form>
+                <p style="padding: 10px">BOOK a TABLE and let us get a chance to serve you with our delicious recipes</p>
+                <p><input type="text" placeholder="Name" required></p>
+                <p><input type="number" placeholder="People count" required></p>
+                <p><input type="datetime-local" placeholder=" " required></p>
+                <p><input type="text" placeholder="Items you wish to order" required></p>
+                <p><input type="text" placeholder="Any special requirements"></p>
+                <p><button type="submit">Send it</button></p>
+                <p style="padding: 20px 10px 10px 10px;">You can also contact us by phone +91 1010101010<br> or <br>email kiki@food.com</p>
+            </form>
+        </div>
+    </div> 
+    <script src="food.js"></script>
+</body>
+</html>
